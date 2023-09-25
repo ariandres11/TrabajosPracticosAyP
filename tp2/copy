@@ -1,0 +1,14 @@
+void acierto_num_incluido(int *input, int *numObjetivo, int *posicion){
+    int i=0;
+    while(posicion[i] != -1 && i < CIFRAS_NUM){
+        for (int j = 0; j < CIFRAS_NUM; j++)
+        {
+            if (posicion[i]!=)
+            {
+                /* code */
+            }
+            
+        }
+        
+    }
+}
