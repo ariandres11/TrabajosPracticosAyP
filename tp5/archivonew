@@ -1,0 +1,16 @@
+#include <stdlib.h>
+#include <stdio.h>
+//Main recibe n cantidad de argumentos 
+//Argv es un arreglo de punteros de caracteres
+int main (int argc char *argv[]){
+    FILE *punteroFile;
+    char caracter;
+    for (int i = 0; i < argc; i++)
+    {
+        printf("\n argumento %s \n", argv[i]);
+    }
+    
+    printf("");
+
+    return 0;
+}
